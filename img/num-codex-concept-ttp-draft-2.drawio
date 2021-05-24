@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-24T10:30:08.203Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="pWAuV7l7lLf9L_hoVIFY" version="14.6.13" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-24T10:55:13.302Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="LOaRsPCXL7ojHxsNSDvB" version="14.6.13" type="github">
   <diagram id="jGCV98gVly2-MNFm8NOj" name="Page-1">
     <mxGraphModel dx="2627" dy="2302" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="500" background="#FFFFFF" math="0" shadow="0">
       <root>
@@ -413,7 +413,7 @@
         <mxCell id="UJUMtMTHQ7Rxm2CL5eUm-57" value="z.B. gICS" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="rwoW0jR8iVd6089sEYi8-17" vertex="1">
           <mxGeometry x="220" y="15" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="UJUMtMTHQ7Rxm2CL5eUm-58" value="&lt;font&gt;Dispatcher&lt;/font&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="rwoW0jR8iVd6089sEYi8-17" vertex="1">
+        <mxCell id="UJUMtMTHQ7Rxm2CL5eUm-58" value="&lt;font&gt;Dispatcher&lt;/font&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="rwoW0jR8iVd6089sEYi8-17" vertex="1">
           <mxGeometry x="20" y="60" width="290" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uqaeGx0HP7bvnvXOPrDI-21" value="&lt;font&gt;TTP FHIR-GW&lt;/font&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="rwoW0jR8iVd6089sEYi8-17" vertex="1">
