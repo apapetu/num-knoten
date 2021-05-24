@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-24T11:07:47.627Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="TXxqUUPCPFAW6ioGwLeT" version="14.6.13" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-24T11:10:06.206Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="rBZ-eKzpxccwbGVVZD2P" version="14.6.13" type="github">
   <diagram id="jGCV98gVly2-MNFm8NOj" name="Page-1">
     <mxGraphModel dx="2233" dy="2107" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="500" background="#FFFFFF" math="0" shadow="0">
       <root>
@@ -462,9 +462,6 @@
         </mxCell>
         <mxCell id="vHBtSxV5N4kJ1uLNlZgT-10" value="&lt;div&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;u&gt;Pseudonym-Domänen:&lt;/u&gt;&lt;/div&gt;&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;MPI&lt;/b&gt;: Master-Patient-Index aus E-PIX&lt;br&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;BF&lt;/b&gt;: Bloom Filter aus E-PIX&lt;/li&gt;&lt;li&gt;&lt;b&gt;PSN_GECCO: &lt;/b&gt;Lokal vergebenes Pseudonym für GECCO-Ressourcen im GECCO-FHIR-Server, &lt;font color=&quot;#ff1808&quot;&gt;dieses PSN ist Erlangen-spezifisch&lt;/font&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;DIC PSN&lt;/b&gt;: Zentral vergebenes, record-gelinktes Pseudonym je Standort)&lt;/li&gt;&lt;li&gt;&lt;b&gt;CODEX PSN&lt;/b&gt;: Zentral vergebenes, standortübergreifend gültiges Pseudonym, das die einzelnen Standorte niemals zu sehen bekommen&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="shape=card;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="1518.5" y="-930" width="261.5" height="280" as="geometry" />
-        </mxCell>
-        <mxCell id="VzA7a89bhlJmLZzgj0_w-10" value="&lt;font color=&quot;#ff150d&quot;&gt;Wird PSN über FHIR API gespeichert oder via gPAS/Dispatcher API ?&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="1076" y="-805.62" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
