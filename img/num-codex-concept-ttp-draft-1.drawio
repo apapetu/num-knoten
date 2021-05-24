@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-05-24T09:27:12.917Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="nNt5WmVHbFhbSdfzsoqc" version="14.6.13" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-24T11:07:47.627Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="TXxqUUPCPFAW6ioGwLeT" version="14.6.13" type="github">
   <diagram id="jGCV98gVly2-MNFm8NOj" name="Page-1">
-    <mxGraphModel dx="2233" dy="2183" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="500" background="#FFFFFF" math="0" shadow="0">
+    <mxGraphModel dx="2233" dy="2107" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="500" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -268,9 +268,6 @@
             <mxPoint x="-21.78" y="40.78" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UJUMtMTHQ7Rxm2CL5eUm-33" value="Connection to (DSF) FHIR Mailbox (Tasks) in DMZ" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.cloud_callout;flipH=1;align=center;direction=west;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;spacingTop=40;" parent="1" vertex="1">
-          <mxGeometry x="1574" y="80" width="220" height="110" as="geometry" />
-        </mxCell>
         <mxCell id="UJUMtMTHQ7Rxm2CL5eUm-38" value="FLARE" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;align=center;size=10;" parent="1" vertex="1">
           <mxGeometry x="1624" y="-175" width="90" height="80" as="geometry" />
         </mxCell>
@@ -355,7 +352,7 @@
         <mxCell id="UJUMtMTHQ7Rxm2CL5eUm-57" value="gICS" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
           <mxGeometry x="774" y="-815" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="UJUMtMTHQ7Rxm2CL5eUm-58" value="&lt;font&gt;Dispatcher&lt;/font&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+        <mxCell id="UJUMtMTHQ7Rxm2CL5eUm-58" value="&lt;font&gt;Dispatcher&lt;/font&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
           <mxGeometry x="574" y="-770" width="290" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UJUMtMTHQ7Rxm2CL5eUm-62" value="Federated Trusted Third Party (fTTP)" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;fillColor=#d5e8d4;strokeColor=#82b366;fontColor=#006633;" parent="1" vertex="1">
@@ -446,20 +443,14 @@
         <mxCell id="uqaeGx0HP7bvnvXOPrDI-21" value="&lt;font&gt;TTP FHIR-GW&lt;/font&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
           <mxGeometry x="574" y="-695" width="290" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="uqaeGx0HP7bvnvXOPrDI-23" value="&lt;font color=&quot;#ff0000&quot;&gt;&lt;span&gt;Woran erkennt man GECCO-Daten und -Consente?&lt;br&gt;Frage ist relevant für Standorte, die den NUM Knoten auch für Nicht-GECCO-Daten nutzen.&lt;br&gt;&lt;/span&gt;&lt;/font&gt;" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1210" y="-60" width="160" height="90" as="geometry" />
-        </mxCell>
         <mxCell id="uqaeGx0HP7bvnvXOPrDI-24" value="&lt;font color=&quot;#ff0000&quot;&gt;(1. Check if DIC PSN already exists) -&amp;gt; what happens if bloom filter changes like corrections in IDAT?&lt;/font&gt;&lt;br&gt;2. Check consent in gICS for lokales PSN&lt;br&gt;2a. If no consent exists: continue with 6&lt;br&gt;2b. If consent exists: continue with 3&lt;br&gt;3. Get BF from E-PIX&lt;br&gt;4. Send BF to fTTP and receive DIC PSN&lt;br&gt;5. Save and return DIC PSN for substitution&lt;br&gt;6. Get PSN_GECCO for lokales PSN&lt;br&gt;7. Return PSN_GECCO and optionally DIC PSN" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelPosition=center;verticalLabelPosition=middle;labelBorderColor=none;spacingTop=0;spacingLeft=0;spacingBottom=0;spacingRight=0;spacing=2;" parent="1" vertex="1">
-          <mxGeometry x="1402" y="-851.25" width="326" height="151.25" as="geometry" />
+          <mxGeometry x="1136" y="-740" width="326" height="151.25" as="geometry" />
         </mxCell>
         <mxCell id="uqaeGx0HP7bvnvXOPrDI-26" value="&lt;div style=&quot;text-align: left&quot;&gt;(Incrementally by FHIR Update Date)&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;1. Get all Consents&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;2. Get Patient Resource from Consent by technical id reference&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;3. Also get all other Resources for this Patient by technical id reference&lt;/div&gt;" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;labelBorderColor=none;spacing=0;" parent="1" vertex="1">
           <mxGeometry x="1076" y="40" width="386" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uqaeGx0HP7bvnvXOPrDI-27" value="(Incrementally by timestamp:)&lt;br&gt;1. Get all GECCO consents from gICS-TTP-FHIR-GW 2. Send to FHIR-GW&lt;br&gt;(In gICS consents are saved with lokales PSN)" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="7" y="-690" width="300" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="uqaeGx0HP7bvnvXOPrDI-33" value="&lt;font color=&quot;#ff0000&quot;&gt;&lt;span&gt;Was passiert, wenn sich BF ändert?&lt;br&gt;z.B. Korrektur in IDAT: Neues DIC PSN&lt;br&gt;-&amp;gt; zentrale Plattform bekommt von Änderung&amp;nbsp;nichts mit und enthält Ressourcen nochmals unter neuem DIC PSN&lt;br&gt;-&amp;gt; Patienten + MDAT doppelt vorhanden&lt;/span&gt;&lt;/font&gt;" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1440" y="190" width="340" height="100" as="geometry" />
         </mxCell>
         <mxCell id="uqaeGx0HP7bvnvXOPrDI-34" value="&lt;span style=&quot;text-align: left&quot;&gt;Put local PSN into all resources and DIC PSN only in Patient resource&lt;/span&gt;" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="1320" y="-275" width="180" height="50" as="geometry" />
@@ -470,9 +461,9 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="vHBtSxV5N4kJ1uLNlZgT-10" value="&lt;div&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;u&gt;Pseudonym-Domänen:&lt;/u&gt;&lt;/div&gt;&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;MPI&lt;/b&gt;: Master-Patient-Index aus E-PIX&lt;br&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;BF&lt;/b&gt;: Bloom Filter aus E-PIX&lt;/li&gt;&lt;li&gt;&lt;b&gt;PSN_GECCO: &lt;/b&gt;Lokal vergebenes Pseudonym für GECCO-Ressourcen im GECCO-FHIR-Server, &lt;font color=&quot;#ff1808&quot;&gt;dieses PSN ist Erlangen-spezifisch&lt;/font&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;DIC PSN&lt;/b&gt;: Zentral vergebenes, record-gelinktes Pseudonym je Standort)&lt;/li&gt;&lt;li&gt;&lt;b&gt;CODEX PSN&lt;/b&gt;: Zentral vergebenes, standortübergreifend gültiges Pseudonym, das die einzelnen Standorte niemals zu sehen bekommen&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="shape=card;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="18.5" y="-980" width="261.5" height="280" as="geometry" />
+          <mxGeometry x="1518.5" y="-930" width="261.5" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="VzA7a89bhlJmLZzgj0_w-10" value="&lt;font color=&quot;#ff150d&quot;&gt;Wird PSN über FHIR API gespeichert oder via gPAS/Dispatcher API ?&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="VzA7a89bhlJmLZzgj0_w-10" value="&lt;font color=&quot;#ff150d&quot;&gt;Wird PSN über FHIR API gespeichert oder via gPAS/Dispatcher API ?&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="1076" y="-805.62" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
